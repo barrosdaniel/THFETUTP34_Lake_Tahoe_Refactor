@@ -1,11 +1,10 @@
 /* Base Styles -------------------- */
-
 * {
   box-sizing: border-box;
 }
 
 body {
-  color: #878787;
+  color: $color-text-base;
   margin: 0;
   font: 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -24,7 +23,7 @@ h2 {
 
 h3 {
   font-size: 1.25em;
-  color: #48525c;
+  color: $color-text-dark;
   line-height: 1.2;
   margin-bottom: 1.7em;
 }
@@ -46,19 +45,19 @@ li {
 
 /* Pseudo-classes ------------------ */
 
-a:link {
-  color: rgb(255, 169, 73);
-  text-decoration: none;
-}
+a {
 
-a:visited {
-  color: lightblue;
-}
+  &:link {
+    color: $color-link-default;
+    text-decoration: none;
+  }
 
-a:hover {
-  color: rgba(255, 169, 73, .4);
-}
+  &:visited {
+    color: $color-link-visited;
+  }
 
-a:active {
-  color: lightcoral;
+  &:hover {
+    color: rgba($color-link-default, 0.5);
+  }
+
 }
