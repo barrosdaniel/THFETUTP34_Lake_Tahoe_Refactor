@@ -2,7 +2,7 @@
   @extend %content;
   @extend %centered;
   @extend %t-border;
-	padding-top: 25px;
+  padding-top: 25px;
   padding-bottom: 95px;
 }
 
@@ -11,8 +11,8 @@
   @extend %t-border;
   @extend %clearfix;
   padding-top: 80px;
-	padding-bottom: 70px;
-  border-bottom: 2px solid $border-light;
+  padding-bottom: 70px;
+  border-bottom: 2px solid $color-border-light;
 }
 
 .wildlife {
@@ -25,6 +25,7 @@
   background-size: cover;
   box-shadow: inset 0 0 50px 10px $color-shadow;
   border-radius: $br;
+
   @media #{$brk-wide} {
     padding: 10% 12%;
     margin: 50px 0 20px;
