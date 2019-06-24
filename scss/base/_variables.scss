@@ -43,4 +43,4 @@ $path-fonts: '../fonts';
 
 // Media Query Break Points
 $brk-narrow: '(max-width: 768px)';
-$brk-wide: '(max-width: 1024px)';
+$brk-wide: '(min-width: 1024px)';

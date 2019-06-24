@@ -70,11 +70,6 @@ a:hover {
     padding: 50px 25px 0;
   }
 }
-@media (max-width: 1024px) {
-  .main-header {
-    width: 90%;
-  }
-}
 
 .main-footer {
   padding-top: 60px;
@@ -109,7 +104,7 @@ a:hover {
   box-shadow: inset 0 0 50px 10px rgba(0, 0, 0, 0.8);
   border-radius: 10px;
 }
-@media (max-width: 1024px) {
+@media (min-width: 1024px) {
   .wildlife {
     padding: 10% 12%;
     margin: 50px 0 20px;
