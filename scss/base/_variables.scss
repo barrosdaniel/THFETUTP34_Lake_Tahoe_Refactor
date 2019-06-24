@@ -1,46 +1,46 @@
-// Descriptive Colour Variables
-$white: #fff;
-$black: #000;
-$grey: #878787;
-$regent-st-blue: #add8e6;
-$river-bed: #48525c;
-$yellow-orange: #ffa949;
+// Descriptive color variables
+
+$white          : #fff;
+$black          : #000;
+$grey           : #878787;
+$regent-st-blue : #add8e6;
+$river-bed      : #48525c;
+$yellow-orange  : #ffa949;
 
 // Functional color variables
-$color-prim: $yellow-orange;
-$color-sec: $river-bed;
 
-$color-text-light: $white;
-$color-text-base: $grey;
-$color-text-dark: $river-bed;
+$color-prim         : $yellow-orange;
+$color-sec          : $river-bed;
 
-$color-border-light: lighten($grey, 35%);
-$color-border-dark: $yellow-orange;
+$color-text-light   : $white;
+$color-text-base    : $grey;
+$color-text-dark    : $river-bed;
 
-$color-link-default: $yellow-orange;
-$color-link-visited: $regent-st-blue;
+$color-border-light : lighten($grey, 35%);
+$color-border-dark  : $yellow-orange;
 
-$color-shadow: rgba($black, 0.8);
-$color-body: $white;
+$color-link-default : $yellow-orange;
+$color-link-visited : $regent-st-blue;
 
-// Font Stacks
-$stack-sans-serif: Helvetica,
-Arial,
-sans-serif;
+$color-shadow       : rgba($black,.8);
+$color-body         : $white;
 
-$stack-helvetica: "Helvetica Neue",
-$stack-sans-serif;
+// Font stacks
 
-$stack-abolition: 'Abolition Regular',
-$stack-sans-serif;
+$stack-sans-serif : Helvetica, Arial, sans-serif;
+$stack-helvetica  : 'Helvetica Neue', $stack-sans-serif;
+$stack-abolition  : 'Abolition Regular', $stack-sans-serif;
 
 // Border radius
+
 $br: 10px;
 
-// Asset Paths
-$path-image: '../img';
-$path-fonts: '../fonts';
+// Asset paths
 
-// Media Query Break Points
-$brk-narrow: '(max-width: 768px)';
-$brk-wide: '(min-width: 1024px)';
+$path-img  : '../img';
+$path-font : '../fonts';
+
+// Media query breakpoints
+
+$brk-narrow : '(max-width: 768px)';
+$brk-wide   : '(max-width: 1024px)';
