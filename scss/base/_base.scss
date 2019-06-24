@@ -6,12 +6,12 @@
 body {
   color: $color-text-base;
   margin: 0;
-  font: 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 1em/1.5 $stack-helvetica;
 }
 
 h1,
 h2 {
-  font-family: 'Abolition Regular', Helvetica, Arial, sans-serif;
+  font-family: $stack-abolition;
 }
 
 h2 {
@@ -31,7 +31,7 @@ h3 {
 img {
   max-width: 100%;
   margin-bottom: 20px;
-  border-radius: 10px;
+  border-radius: $br;
 }
 
 ul,
