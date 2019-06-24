@@ -7,4 +7,13 @@
   #ffa949 url('#{$path-image}/mountains.jpg') no-repeat center;
   background-size: cover;
   color: white;
+
+  @media #{$brk-narrow} {
+    max-height: 380px;
+    padding: 50px 25px 0;
+  }
+
+  @media #{$brk-wide} {
+    width: 90%;
+  }
 }

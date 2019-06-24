@@ -40,3 +40,7 @@ $br: 10px;
 // Asset Paths
 $path-image: '../img';
 $path-fonts: '../fonts';
+
+// Media Query Break Points
+$brk-narrow: '(max-width: 768px)';
+$brk-wide: '(max-width: 1024px)';

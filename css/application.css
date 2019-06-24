@@ -64,11 +64,27 @@ a:hover {
   background-size: cover;
   color: white;
 }
+@media (max-width: 768px) {
+  .main-header {
+    max-height: 380px;
+    padding: 50px 25px 0;
+  }
+}
+@media (max-width: 1024px) {
+  .main-header {
+    width: 90%;
+  }
+}
 
 .main-footer {
   padding-top: 60px;
   padding-bottom: 60px;
   border-bottom: 10px solid #ffa949;
+}
+@media (max-width: 768px) {
+  .main-footer {
+    padding: 20px 0;
+  }
 }
 
 .primary-content {
@@ -92,6 +108,12 @@ a:hover {
   background-size: cover;
   box-shadow: inset 0 0 50px 10px rgba(0, 0, 0, 0.8);
   border-radius: 10px;
+}
+@media (max-width: 1024px) {
+  .wildlife {
+    padding: 10% 12%;
+    margin: 50px 0 20px;
+  }
 }
 
 .tips {
@@ -117,9 +139,22 @@ a:hover {
   margin: auto;
   max-width: 960px;
 }
+@media (max-width: 768px) {
+  .primary-content, .secondary-content {
+    width: 100%;
+    padding: 20px;
+    border-top: none;
+  }
+}
 
 .tips, .resorts {
   width: 46.5%;
+}
+@media (max-width: 768px) {
+  .tips, .resorts {
+    float: none;
+    width: 100%;
+  }
 }
 
 .secondary-content::after {
@@ -142,6 +177,12 @@ a:hover {
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.8);
   margin: 12px 0 0;
 }
+@media (max-width: 768px) {
+  .main-heading {
+    font-size: 5rem;
+    line-height: 1.1;
+  }
+}
 .main-title {
   color: white;
   font-size: 1.625rem;
@@ -150,11 +191,22 @@ a:hover {
   border-bottom: 2px solid;
   padding-bottom: 10px;
 }
+@media (max-width: 768px) {
+  .main-title {
+    font-size: 1.3rem;
+    border: none;
+  }
+}
 
 .intro {
   font-size: 1.25em;
   line-height: 1.6;
   color: initial;
+}
+@media (max-width: 768px) {
+  .intro {
+    font-size: 1rem;
+  }
 }
 
 .callout {
@@ -168,6 +220,11 @@ a:hover {
 .arrow {
   width: 50px;
   margin-top: 150px;
+}
+@media (max-width: 768px) {
+  .arrow {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=application.css.map */
